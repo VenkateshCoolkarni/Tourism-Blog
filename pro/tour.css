@@ -1,0 +1,91 @@
+body{
+    
+    line-height: 1.4;
+    color: var(--blue);
+	background-color:#B983FF;
+}
+
+.heading{
+    background-color: yellow;
+    color:antiquewhite;
+    height: 12%;
+    display: flex;
+    /* flex-direction: ; */
+    align-items: center;
+}
+
+.heading h1{
+    color: black;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 45%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    width: 100%;
+    
+}
+
+
+/* header */
+header{
+   
+    background:antiquewhite;
+   
+    
+}
+
+
+
+
+
+
+.butter {
+    
+	color: #800000;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: Cursive;
+	padding:3px
+   
+}
+
+
+
+.design-img{
+    position: relative;
+	color: #3f000f;
+	font-family:Cursive;
+    max-width:100%;
+	
+}
+
+.design-title a{
+    color: Purple;
+     font-size: 2.4rem;
+    text-transform: capitalize;
+    font-family: Cursive;
+}
+.design-content{
+        display: grid;
+        
+        gap: 5rem;
+    }
+    
+    
+
+
+
+
+@media screen and (min-width: 768px){
+}
+
+
+@media screen and (min-width: 120px){
+    .design-content{
+		
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
